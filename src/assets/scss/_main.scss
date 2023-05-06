@@ -1,0 +1,110 @@
+main {
+  background-color: hsl(221, 100%, 96%);
+  .container {
+    // margin: 10px 0;
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    border-radius: 20px;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      max-width: 375px;
+      border-radius: 0 0 20px 20px;
+    }
+    &__your_result {
+      width: 50%;
+      padding: 30px;
+      border-radius: 20px;
+      background-image: linear-gradient(
+        hsla(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+      );
+      color: hsl(0, 0%, 100%);
+      @media (max-width: 768px) {
+        border-radius: 0 0 20px 20px;
+        width: 100%;
+      }
+      h1 {
+        font-size: 1.4rem;
+      }
+      &__persentage_circle {
+        background-image: linear-gradient(
+          hsla(256, 72%, 46%, 1),
+          hsla(241, 72%, 46%, 0)
+        );
+        margin-top: 20px !important;
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 50%;
+
+
+        h2 {
+          font-size: 2.9rem;
+        }
+        p {
+          color: hsl(241, 100%, 89%);
+        }
+        @media (max-width: 768px) {
+        width: 140px;
+        height: 140px;
+        }
+      }
+      h3 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+      }
+      .discription {
+        font-size: 1.2rem;
+        margin-top: 20px;
+        padding: 0 20px;
+        @media (max-width: 768px) {
+          padding: 0;
+        }
+      }
+    }
+    &__summary {
+      width: 50%;
+      padding: 30px;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      h4 {
+        font-size: 1.6rem;
+      }
+      &__rows {
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        .logo {
+          p {
+            margin-left: 10px;
+            font-size: 1.2rem;
+          }
+        }
+        .marks {
+          font-size: 1.3rem;
+          font-weight: 700;
+          color: hsla(224, 30%, 27%, 0.6);
+        }
+      }
+      .btn_cont {
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 25px;
+        border: none;
+        font-size: 1.3rem;
+        color: hsl(0, 0%, 100%);
+        border-radius: 30px;
+        background-color: hsl(224, 30%, 27%);
+        &:hover {
+          background-image: linear-gradient(
+            hsla(252, 100%, 67%),
+            hsl(241, 81%, 54%)
+          );
+        }
+      }
+    }
+  }
+}

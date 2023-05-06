@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.d-f{
+    display: flex;   
+}
+.fd-c{
+ flex-direction: column;
+}
+.ai-c{
+    align-items: center;
+
+}
+.jc-c{
+    justify-content: center;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.m-h-100{
+    min-height: 100vh;
+}
+.t-c{
+    text-align: center;
+} 
+.b{
+    border: 2px solid black;
+}
