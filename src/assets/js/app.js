@@ -6,7 +6,7 @@ $.getJSON("./data/data.json", (data) => {
       ` <div class="container__summary__rows d-f jc-sb ai-c " style="background-color:${valueOfElement.bgcolor}">
         <div class="logo d-f">
           <img
-            src="./src/assets/images/icon-${valueOfElement.category}.svg"
+            src="${valueOfElement.icon}"
             alt="${valueOfElement.category}"
           />
           <p style="color:${valueOfElement.color}" >${valueOfElement.category}</p>

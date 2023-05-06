@@ -12,7 +12,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 
@@ -80,11 +79,6 @@ $.getJSON("/src/assets/data/data.json", (data) => {
 });
 ```
 this is a way of loading components dynamicaly by using json data.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
